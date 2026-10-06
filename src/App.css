@@ -1,0 +1,20 @@
+a
+#root {
+  min-height: 100vh;
+}
+
+body {
+  background: #f7f5f0;
+  color: #20201e;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #e86a4a;
+  outline-offset: 4px;
+}
