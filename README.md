@@ -1,11 +1,17 @@
-🎁✨Enjoy the Free code + Assets, Subscribe our youtube channel to get more. 😍
+# Elite Front
 
-  - Subscribe and Support us on our YouTube Platform: https://www.youtube.com/channel/UC1H-a1MKEFXRiFlGNLcy7gQ
+## Lancer le projet
 
+1. Installez [Node.js](https://nodejs.org/) (version LTS).
+2. Ouvrez un terminal dans le dossier du projet `elite_front-main`.
+3. Installez les dépendances :
+	```bash
+	npm install
+	```
+4. Lancez le serveur de développement :
+	```bash
+	npm run dev
+	```
+5. Ouvrez dans votre navigateur l’URL affichée dans le terminal (souvent `http://localhost:5173`).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Pour arrêter le serveur, utilisez `Ctrl+C` dans le terminal.
